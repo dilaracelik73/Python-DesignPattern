@@ -1,5 +1,5 @@
 
-# CHAINS OF REPOSIBILITY  DESIGN PATTERN KOD ÖRNEĞİ- PYTHON:
+# CHAIN OF REPONSIBILITY  DESIGN PATTERN KOD ÖRNEĞİ- PYTHON:
 
 class Siparis:
     def __init__(self, siparis_numarasi, urun, miktar):
