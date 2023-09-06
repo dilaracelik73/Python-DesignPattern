@@ -26,7 +26,7 @@ class elektrik_sistemi:
     def kapat(self):
         print("Uçak elektrik sistemi kapatıldı.")
 
-# facadde sınıfı oluşturuldu, nesneler - fonksiyonlar çağrıldı.
+# facade sınıfı oluşturuldu, nesneler - fonksiyonlar çağrıldı.
 class arac_genel:
     def __init__(self):
         self._motor = motor()
