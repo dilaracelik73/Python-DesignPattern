@@ -1,3 +1,6 @@
+#Memento design pattern de ana mantık; önceden yapılan işlemlerin hafızada tutulması ve bunun üzerine 
+#sonraki aşamalarda çağrılabilmesidir.
+
 class Memento:
     def __init__(self, durum):
         self.durum = durum
