@@ -1,8 +1,8 @@
 
 # MEMENTO DESIGN PATTERN KOD ÖRNEĞİ- PYTHON:
 
-# bunun ana mantığı iilk seferde elinde bir şey yok,
-# ikinci seferde ilj yazılan yapı eklenecek ve kayıt altına alınacak.
+# bunun ana mantığı ilk seferde elinde bir şey yok,
+# ikinci seferde ilk yazılan yapı eklenecek ve kayıt altına alınacak.
 # üçüncü seferde son ekleme yapılacak ve kaydedilecek.
 # eğer geriye dönmek istersek geçmiş kayıtlara memento ile ulaşabileceğiz. (Oyun mantığı)
 
