@@ -1,5 +1,6 @@
 
 # SINGLETON DESIGN PATTERN KOD ÖRNEĞİ- PYTHON:
+#Bunun çalışma mantığında ise asıl olay; tüm işlemlerin tek taraftan çağrılabilir olmasıdır.
 
 class Singleton:
     örnek = None
