@@ -1,3 +1,5 @@
+
+#FACTORY DESIGN PATTERN ÖRNEĞİ
 import abc
 
 class Shape(metaclass=abc.ABCMeta):
@@ -9,7 +11,7 @@ class Shape(metaclass=abc.ABCMeta):
     def calculate_perimeter(self):
         pass
 
-
+#Her şekil için genel sınıf oluşturuldu ve sonrasında da o sınıflardan üretim yapıldı.
 class Rectangle(Shape):
     def __init__(self, height, width):
         self.height = height
@@ -43,7 +45,8 @@ class Circle(Shape):
     def calculate_perimeter(self):
         return 2 * 3.14 * self.radius
 
-
+#If -else yapısı ile istenen şekillerin kontrolleri sağlanmış olundu.
+# Daha sonrasında ise hesaplamalar yapıldı.
 class ShapeFactory:
     def create_shape(self, name):
         if name == "circle":
